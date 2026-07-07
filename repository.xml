@@ -7,7 +7,7 @@
       Includes ports of popular community scripts updated for PixInsight 1.9.4
       Lockhart and the V8 JavaScript engine, including full Apple Silicon
       (ARM64) support.</description>
-      <url>https://MoPScripts.github.io/mop-v8-scripts/</url>
+      <url>https://mopscripts.github.io/mop-v8-scripts/</url>
       <packages>packages.xml</packages>
    </repository>
 </xri>
