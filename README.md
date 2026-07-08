@@ -11,7 +11,7 @@ with PixInsight 1.9.4 Lockhart, including the native Apple Silicon (ARM64) build
 2. Click **Add**
 3. Enter this URL:
    ```
-   https://MoPScripts.github.io/mop-v8-scripts/
+   https://mopscripts.github.io/mop-v8-scripts/
    ```
 4. Click **OK**, then go to **Resources > Updates > Check for Updates**
 5. Select **MoPV8Scripts** and click **Install**
