@@ -10,30 +10,26 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.0.1.tar.gz"
-               sha1="3c8ae3b993f7cad945a0da20fb7d25ae0c559f05"
+      <package fileName="MoPV8Scripts-1.1.0.tar.gz"
+               sha1="77e55ab5aab7c500fa1defe85496a73589f0678e"
                type="script"
                releaseDate="20260708">
-         <title>Masters of PixInsight V8 Scripts v1.0.1</title>
+         <title>Masters of PixInsight V8 Scripts v1.1.0</title>
          <description>
             <p>
-               v1.0.1 — Fixed AberrationInspector: ImageWindow constructor
-               now correctly handles float/integer sample type for all
-               image formats including 32-bit float linear masters.
+               v1.1.0 — Added AdvStarmask, WriteJPEG, and DeLinear.
+               Fixed AberrationInspector sampleType issue.
+               Fixed WriteJPEG SaveFileDialog.filePath deprecation.
+               20 scripts total.
             </p>
             <p>
-               17 PixInsight scripts ported to the V8 JavaScript engine for
-               full compatibility with PixInsight 1.9.4 Lockhart, including
-               the native Apple Silicon (ARM64) build.
-            </p>
-            <p>
-               Included scripts: AberrationInspector, AutoColor,
+               Full script list: AberrationInspector, AdvStarmask, AutoColor,
                Batch FITS Keyword Modifier, Batch Rename Files,
                Canon Banding Reduction, Combine Two Views, DBXtract,
-               Dark Structure Enhance (with preview), Draw Signature,
+               Dark Structure Enhance (with preview), DeLinear, Draw Signature,
                GAME Galaxy Mask Editor, ImageInsert, NBRGBCombination,
                Preview Aggregator, RatioCrop, Remove AutoCrop Views,
-               Save Selected Views, Synthetic Luminance.
+               Save Selected Views, Synthetic Luminance, WriteJPEG.
             </p>
             <p>
                Scripts are installed under Script > MoP V8.
