@@ -10,12 +10,17 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.0.0.tar.gz"
-               sha1="cfd2248c35b94f40918507ba7494986649014e37"
+      <package fileName="MoPV8Scripts-1.0.1.tar.gz"
+               sha1="3c8ae3b993f7cad945a0da20fb7d25ae0c559f05"
                type="script"
-               releaseDate="20260707">
-         <title>Masters of PixInsight V8 Scripts v1.0.0</title>
+               releaseDate="20260708">
+         <title>Masters of PixInsight V8 Scripts v1.0.1</title>
          <description>
+            <p>
+               v1.0.1 — Fixed AberrationInspector: ImageWindow constructor
+               now correctly handles float/integer sample type for all
+               image formats including 32-bit float linear masters.
+            </p>
             <p>
                17 PixInsight scripts ported to the V8 JavaScript engine for
                full compatibility with PixInsight 1.9.4 Lockhart, including
