@@ -10,17 +10,17 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.1.0.tar.gz"
-               sha1="77e55ab5aab7c500fa1defe85496a73589f0678e"
+      <package fileName="MoPV8Scripts-1.2.0.tar.gz"
+               sha1="432fc50e32bf99421e7dfe26ec1fe16340308ce4"
                type="script"
-               releaseDate="20260708">
-         <title>Masters of PixInsight V8 Scripts v1.1.0</title>
+               releaseDate="20260709">
+         <title>Masters of PixInsight V8 Scripts v1.2.0</title>
          <description>
             <p>
-               v1.1.0 — Added AdvStarmask, WriteJPEG, and DeLinear.
-               Fixed AberrationInspector sampleType issue.
-               Fixed WriteJPEG SaveFileDialog.filePath deprecation.
-               20 scripts total.
+               v1.2.0 — DeLinear and WriteJPEG updated with full dialogs,
+               view selectors, and New Instance buttons. DeLinear now correctly
+               clears the STF after stretching. WriteJPEG STF application
+               and quality slider fixed.
             </p>
             <p>
                Full script list: AberrationInspector, AdvStarmask, AutoColor,
@@ -31,9 +31,7 @@
                Preview Aggregator, RatioCrop, Remove AutoCrop Views,
                Save Selected Views, Synthetic Luminance, WriteJPEG.
             </p>
-            <p>
-               Scripts are installed under Script > MoP V8.
-            </p>
+            <p>Scripts are installed under Script > MoP V8.</p>
             <p>
                Original scripts by their respective authors - all copyright
                notices preserved. V8 ports by Peter Proulx,
