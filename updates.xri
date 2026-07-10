@@ -10,26 +10,28 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.2.0.tar.gz"
-               sha1="432fc50e32bf99421e7dfe26ec1fe16340308ce4"
+      <package fileName="MoPV8Scripts-1.3.0.tar.gz"
+               sha1="c395d0fb3c0f210e8eb64262d55451eeb2655367"
                type="script"
-               releaseDate="20260709">
-         <title>Masters of PixInsight V8 Scripts v1.2.0</title>
+               releaseDate="20260710">
+         <title>Masters of PixInsight V8 Scripts v1.3.0</title>
          <description>
             <p>
-               v1.2.0 — DeLinear and WriteJPEG updated with full dialogs,
-               view selectors, and New Instance buttons. DeLinear now correctly
-               clears the STF after stretching. WriteJPEG STF application
-               and quality slider fixed.
+               v1.3.0 — AutoColor updated with performance optimization by
+               Georg Albrecht: uses Float64Array for sky sampling giving
+               faster sort and numeric operations on large images. Added
+               AdvSharpening V8 port. DeLinear and WriteJPEG updated with
+               full dialogs and view selectors. 21 scripts total.
             </p>
             <p>
-               Full script list: AberrationInspector, AdvStarmask, AutoColor,
-               Batch FITS Keyword Modifier, Batch Rename Files,
-               Canon Banding Reduction, Combine Two Views, DBXtract,
-               Dark Structure Enhance (with preview), DeLinear, Draw Signature,
-               GAME Galaxy Mask Editor, ImageInsert, NBRGBCombination,
-               Preview Aggregator, RatioCrop, Remove AutoCrop Views,
-               Save Selected Views, Synthetic Luminance, WriteJPEG.
+               Full script list: AberrationInspector, AdvSharpening,
+               AdvStarmask, AutoColor, Batch FITS Keyword Modifier,
+               Batch Rename Files, Canon Banding Reduction, Combine Two Views,
+               DBXtract, Dark Structure Enhance (with preview), DeLinear,
+               Draw Signature, GAME Galaxy Mask Editor, ImageInsert,
+               NBRGBCombination, Preview Aggregator, RatioCrop,
+               Remove AutoCrop Views, Save Selected Views,
+               Synthetic Luminance, WriteJPEG.
             </p>
             <p>Scripts are installed under Script > MoP V8.</p>
             <p>
