@@ -10,16 +10,18 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.4.0.tar.gz"
-               sha1="0334d48d04599abec51cc3a323e086fffb3c7e5f"
+      <package fileName="MoPV8Scripts-1.4.1.tar.gz"
+               sha1="1de47706d97ddfe11e36dcdbb9958ace399d8891"
                type="script"
                releaseDate="20260711">
-         <title>Masters of PixInsight V8 Scripts v1.4.0</title>
+         <title>Masters of PixInsight V8 Scripts v1.4.1</title>
          <description>
             <p>
-               v1.4.0 — Added OrtonGlow V8 port. AutoColor and DeLinear
-               updated with dialogs, view selectors defaulting to active
-               window, and New Instance buttons. 22 scripts total.
+               v1.4.1 — OrtonGlow: added New Instance button with icon set
+               support, removed deprecated gc() call, image dropdown now
+               defaults to "Select an image" forcing explicit selection.
+               AutoColor and DeLinear: view selector defaults to active window.
+               22 scripts total.
             </p>
             <p>
                Full script list: AberrationInspector, AdvSharpening,
