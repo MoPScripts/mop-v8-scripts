@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xri version="1.0">
    <description>
-      <p>
-         Masters of PixInsight V8 Scripts — ported and maintained by Peter Proulx,
-         Masters of PixInsight (www.mastersofpixinsight.com).
-      </p>
+      <p>Masters of PixInsight V8 Scripts — ported and maintained by Peter Proulx,
+      Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.4.2.tar.gz"
-               sha1="1c2e12946f55c8fe799d3362b2bdd6d465aa98ef"
+      <package fileName="MoPV8Scripts-1.4.3.tar.gz"
+               sha1="426c489247eda98c20eb492540c0de5e6a8bcad9"
                type="script"
-               releaseDate="20260711">
-         <title>Masters of PixInsight V8 Scripts v1.4.2</title>
+               releaseDate="20260712">
+         <title>Masters of PixInsight V8 Scripts v1.4.3</title>
          <description>
-            <p>
-               v1.4.2 — Fixed feature-id for DrawSignature, ImageInsert,
-               PreviewAggregator and RatioCrop which were incorrectly appearing
-               under "Petes V8 Scripts" instead of "MoP V8" in the Script menu.
-               All 22 scripts now correctly appear under Script > MoP V8.
-            </p>
+            <p>v1.4.3 — Fixed RatioCrop: "Create new view" mode was failing
+            with "Error applying crop: undefined" due to an inverted sampleType
+            check when creating the new ImageWindow. Both replace and new view
+            modes now work correctly for all image types.</p>
          </description>
       </package>
    </platform>
