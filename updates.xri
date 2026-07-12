@@ -2,41 +2,22 @@
 <xri version="1.0">
    <description>
       <p>
-         Masters of PixInsight V8 Scripts — V8-compatible PixInsight scripts
-         ported and maintained by Peter Proulx, Masters of PixInsight
-         (www.mastersofpixinsight.com). Includes ports of popular community
-         scripts updated for PixInsight 1.9.4 Lockhart and the V8 JavaScript
-         engine, including full Apple Silicon (ARM64) support.
+         Masters of PixInsight V8 Scripts — ported and maintained by Peter Proulx,
+         Masters of PixInsight (www.mastersofpixinsight.com).
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.4.1.tar.gz"
-               sha1="1de47706d97ddfe11e36dcdbb9958ace399d8891"
+      <package fileName="MoPV8Scripts-1.4.2.tar.gz"
+               sha1="1c2e12946f55c8fe799d3362b2bdd6d465aa98ef"
                type="script"
                releaseDate="20260711">
-         <title>Masters of PixInsight V8 Scripts v1.4.1</title>
+         <title>Masters of PixInsight V8 Scripts v1.4.2</title>
          <description>
             <p>
-               v1.4.1 — OrtonGlow: added New Instance button with icon set
-               support, removed deprecated gc() call, image dropdown now
-               defaults to "Select an image" forcing explicit selection.
-               AutoColor and DeLinear: view selector defaults to active window.
-               22 scripts total.
-            </p>
-            <p>
-               Full script list: AberrationInspector, AdvSharpening,
-               AdvStarmask, AutoColor, Batch FITS Keyword Modifier,
-               Batch Rename Files, Canon Banding Reduction, Combine Two Views,
-               DBXtract, Dark Structure Enhance, DeLinear, Draw Signature,
-               GAME, ImageInsert, NBRGBCombination, OrtonGlow,
-               Preview Aggregator, RatioCrop, Remove AutoCrop Views,
-               Save Selected Views, Synthetic Luminance, WriteJPEG.
-            </p>
-            <p>Scripts are installed under Script > MoP V8.</p>
-            <p>
-               Original scripts by their respective authors - all copyright
-               notices preserved. V8 ports by Peter Proulx,
-               Masters of PixInsight (www.mastersofpixinsight.com).
+               v1.4.2 — Fixed feature-id for DrawSignature, ImageInsert,
+               PreviewAggregator and RatioCrop which were incorrectly appearing
+               under "Petes V8 Scripts" instead of "MoP V8" in the Script menu.
+               All 22 scripts now correctly appear under Script > MoP V8.
             </p>
          </description>
       </package>
