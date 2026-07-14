@@ -5,16 +5,16 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.4.3.tar.gz"
-               sha1="426c489247eda98c20eb492540c0de5e6a8bcad9"
+      <package fileName="MoPV8Scripts-1.4.4.tar.gz"
+               sha1="1b7f1fa5565ce6219a6bb571738e6a1acacb9ae0"
                type="script"
                releaseDate="20260712">
-         <title>Masters of PixInsight V8 Scripts v1.4.3</title>
+         <title>Masters of PixInsight V8 Scripts v1.4.4</title>
          <description>
-            <p>v1.4.3 — Fixed RatioCrop: "Create new view" mode was failing
-            with "Error applying crop: undefined" due to an inverted sampleType
-            check when creating the new ImageWindow. Both replace and new view
-            modes now work correctly for all image types.</p>
+            <p>v1.4.4 — Added ForaxxPalette V8 port. All six lib files inlined
+            into a single self-contained script. Creates Foraxx Palette images
+            from 2 or 3 channel narrowband data (Ha, Oiii, Sii). Original work
+            by Roger Pettengell / Paul Hancock. 23 scripts total.</p>
          </description>
       </package>
    </platform>
