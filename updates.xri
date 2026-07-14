@@ -5,16 +5,17 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.4.4.tar.gz"
-               sha1="1b7f1fa5565ce6219a6bb571738e6a1acacb9ae0"
+      <package fileName="MoPV8Scripts-1.4.5.tar.gz"
+               sha1="be798522c41f99a13490fc446530183ed1fd2a6f"
                type="script"
-               releaseDate="20260712">
-         <title>Masters of PixInsight V8 Scripts v1.4.4</title>
+               releaseDate="20260713">
+         <title>Masters of PixInsight V8 Scripts v1.4.5</title>
          <description>
-            <p>v1.4.4 — Added ForaxxPalette V8 port. All six lib files inlined
-            into a single self-contained script. Creates Foraxx Palette images
-            from 2 or 3 channel narrowband data (Ha, Oiii, Sii). Original work
-            by Roger Pettengell / Paul Hancock. 23 scripts total.</p>
+            <p>v1.4.5 — Added AstroImageDetail V8 port. Sharpens linear and
+            non-linear data using BlurXTerminator and wavelets (MMT/MLT) with
+            optional star removal and recombination. Includes preview panel
+            with zoom controls. Original work by Tony De Nardo. 24 scripts
+            total.</p>
          </description>
       </package>
    </platform>
