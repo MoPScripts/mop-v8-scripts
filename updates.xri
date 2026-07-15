@@ -5,17 +5,15 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.4.6.tar.gz"
-               sha1="82c7285f0bd7a6b7faf60dd76a85dd27296e907e"
+      <package fileName="MoPV8Scripts-1.4.7.tar.gz"
+               sha1="473b842dfffb93c2fe2acf236b16c2f24657f476"
                type="script"
-               releaseDate="20260714">
-         <title>Masters of PixInsight V8 Scripts v1.4.6</title>
+               releaseDate="20260715">
+         <title>Masters of PixInsight V8 Scripts v1.4.7</title>
          <description>
-            <p>v1.4.6 — RatioCrop fixed: New Instance icon now works correctly
-            in global context. Replaced DynamicCrop (unreliable in V8) with
-            image.cropTo() for reliable cropping. Replace mode now supports
-            full undo. New view mode brings result to front automatically.
-            24 scripts total.</p>
+            <p>v1.4.7 — ForaxxPalette: added New Instance button and global
+            context support so process icons work correctly. Removed deprecated
+            jsAutoGC call. 24 scripts total.</p>
          </description>
       </package>
    </platform>
