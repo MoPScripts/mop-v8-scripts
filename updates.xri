@@ -5,17 +5,17 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.4.5.tar.gz"
-               sha1="be798522c41f99a13490fc446530183ed1fd2a6f"
+      <package fileName="MoPV8Scripts-1.4.6.tar.gz"
+               sha1="82c7285f0bd7a6b7faf60dd76a85dd27296e907e"
                type="script"
-               releaseDate="20260713">
-         <title>Masters of PixInsight V8 Scripts v1.4.5</title>
+               releaseDate="20260714">
+         <title>Masters of PixInsight V8 Scripts v1.4.6</title>
          <description>
-            <p>v1.4.5 — Added AstroImageDetail V8 port. Sharpens linear and
-            non-linear data using BlurXTerminator and wavelets (MMT/MLT) with
-            optional star removal and recombination. Includes preview panel
-            with zoom controls. Original work by Tony De Nardo. 24 scripts
-            total.</p>
+            <p>v1.4.6 — RatioCrop fixed: New Instance icon now works correctly
+            in global context. Replaced DynamicCrop (unreliable in V8) with
+            image.cropTo() for reliable cropping. Replace mode now supports
+            full undo. New view mode brings result to front automatically.
+            24 scripts total.</p>
          </description>
       </package>
    </platform>
