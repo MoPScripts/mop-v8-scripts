@@ -5,16 +5,19 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.4.9.tar.gz"
-               sha1="f7a59992f2418ad2ad9fa1b877b9d5a991e15086"
+      <package fileName="MoPV8Scripts-1.5.0.tar.gz"
+               sha1="865b0250f822d982cfece5a642f776367733763a"
                type="script"
-               releaseDate="20260720">
-         <title>Masters of PixInsight V8 Scripts v1.4.9</title>
+               releaseDate="20260721">
+         <title>Masters of PixInsight V8 Scripts v1.5.0</title>
          <description>
-            <p>v1.4.9 — Added BatchPostProcessing V8 port (Skynet Observatory tabbed
-            batch post-processing UI). Filed under its own MoP V8 &gt; BatchPostProcessing
-            menu entry, separate from the original Skynet Observatory menu path. 26 scripts
-            total.</p>
+            <p>v1.5.0 — Fixed a systemic lowercase "console." bug affecting 17
+            scripts; expanded 7 unexpanded with() blocks in DarkStructureEnhance
+            that made it fail to run at all; fixed deprecated
+            SaveFileDialog.fileName, ColorComboBox.setCurrentColor(), and
+            Image.isFloat usages; fixed TreeBoxNode.toolTip and
+            ImageWindow.activeWindow read-only property assignments found during
+            user testing of BatchPostProcessing. 26 scripts total.</p>
          </description>
       </package>
    </platform>
