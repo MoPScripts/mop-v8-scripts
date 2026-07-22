@@ -5,20 +5,19 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.1.tar.gz"
-               sha1="27f88d122c06e51473ab7e056f0f77aa5f873b78"
+      <package fileName="MoPV8Scripts-1.5.2.tar.gz"
+               sha1="7df0fb5ae44d57b7e11eb08063ea30ab8c50166d"
                type="script"
-               releaseDate="20260721">
-         <title>Masters of PixInsight V8 Scripts v1.5.1</title>
+               releaseDate="20260722">
+         <title>Masters of PixInsight V8 Scripts v1.5.2</title>
          <description>
-            <p>v1.5.1 — Fixed GAME's multipoint gradient tool: irregular/
-            asymmetric shapes were getting a hard cutoff at the edge instead
-            of a smooth fade like the ellipse tool, and the first fix for
-            that made the dialog hang on larger images. Both are resolved:
-            the gradient now reaches exactly zero at the true polygon
-            boundary in every direction, computed via a precomputed
-            angle-lookup table instead of a per-pixel ray cast, so it stays
-            fast regardless of image size or point count. 26 scripts total.</p>
+            <p>v1.5.2 — Added AutoPalette (original work by Raul Hussein):
+            dynamic narrowband channel combination for monochrome and
+            OSC/dualband images, using the PIP method for exponential channel
+            transformation, with classic (HOO/SHO/HSO) and Foraxx-style
+            palettes, blend ratio presets, optional LinearFit balancing, and
+            automatic cleanup of intermediate working images. 27 scripts
+            total.</p>
          </description>
       </package>
    </platform>
