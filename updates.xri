@@ -5,19 +5,20 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.0.tar.gz"
-               sha1="865b0250f822d982cfece5a642f776367733763a"
+      <package fileName="MoPV8Scripts-1.5.1.tar.gz"
+               sha1="27f88d122c06e51473ab7e056f0f77aa5f873b78"
                type="script"
                releaseDate="20260721">
-         <title>Masters of PixInsight V8 Scripts v1.5.0</title>
+         <title>Masters of PixInsight V8 Scripts v1.5.1</title>
          <description>
-            <p>v1.5.0 — Fixed a systemic lowercase "console." bug affecting 17
-            scripts; expanded 7 unexpanded with() blocks in DarkStructureEnhance
-            that made it fail to run at all; fixed deprecated
-            SaveFileDialog.fileName, ColorComboBox.setCurrentColor(), and
-            Image.isFloat usages; fixed TreeBoxNode.toolTip and
-            ImageWindow.activeWindow read-only property assignments found during
-            user testing of BatchPostProcessing. 26 scripts total.</p>
+            <p>v1.5.1 — Fixed GAME's multipoint gradient tool: irregular/
+            asymmetric shapes were getting a hard cutoff at the edge instead
+            of a smooth fade like the ellipse tool, and the first fix for
+            that made the dialog hang on larger images. Both are resolved:
+            the gradient now reaches exactly zero at the true polygon
+            boundary in every direction, computed via a precomputed
+            angle-lookup table instead of a per-pixel ray cast, so it stays
+            fast regardless of image size or point count. 26 scripts total.</p>
          </description>
       </package>
    </platform>
