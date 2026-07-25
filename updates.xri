@@ -5,19 +5,18 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.2.tar.gz"
-               sha1="7df0fb5ae44d57b7e11eb08063ea30ab8c50166d"
+      <package fileName="MoPV8Scripts-1.5.3.tar.gz"
+               sha1="0b913e021782d6dd59685bc76471160c6619de27"
                type="script"
                releaseDate="20260722">
-         <title>Masters of PixInsight V8 Scripts v1.5.2</title>
+         <title>Masters of PixInsight V8 Scripts v1.5.3</title>
          <description>
-            <p>v1.5.2 — Added AutoPalette (original work by Raul Hussein):
-            dynamic narrowband channel combination for monochrome and
-            OSC/dualband images, using the PIP method for exponential channel
-            transformation, with classic (HOO/SHO/HSO) and Foraxx-style
-            palettes, blend ratio presets, optional LinearFit balancing, and
-            automatic cleanup of intermediate working images. 27 scripts
-            total.</p>
+            <p>v1.5.3 — Two bugfixes found during user testing:
+            NBRGBCombination's Apply button had a stray "this.this.dialog"
+            typo that threw an error every time it was clicked (pre-existing
+            in the original script, not V8-specific); Combine Two Views
+            still had one deprecated gc(true) call left over from the
+            original migration pass. 27 scripts total.</p>
          </description>
       </package>
    </platform>
