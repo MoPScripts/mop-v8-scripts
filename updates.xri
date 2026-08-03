@@ -5,19 +5,17 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.4.tar.gz"
-               sha1="c15ed070667ceb95e8916fb9774ad82ccfad0798"
+      <package fileName="MoPV8Scripts-1.5.5.tar.gz"
+               sha1="9104f88547ea06e515e0c56810c8d2400f97f6fd"
                type="script"
-               releaseDate="20260726">
-         <title>Masters of PixInsight V8 Scripts v1.5.4</title>
+               releaseDate="20260803">
+         <title>Masters of PixInsight V8 Scripts v1.5.5</title>
          <description>
-            <p>v1.5.4 — Added SHO-AIP (original work by Laurent Bourgon,
-            Philippe Bernhard &amp; Dave Watson): a Multichannel Synthesis
-            utility for mixing SHONRVB narrowband channels with an optional
-            Luminance layer using the AIP method, with live preview,
-            adjustable blend ratios per channel, background
-            auto-equalization, and save/load of channel mix presets. 28
-            scripts total.</p>
+            <p>v1.5.5 — Fixed SHO-AIP's feature-id: it was nested under the
+            original author's menu path (Multichannel Synthesis > SHO-AIP :
+            MoP V8 > SHO-AIP) instead of replacing it entirely, which could
+            collide with a separate install of the unmodified original. Now
+            files under MoP V8 &gt; SHO-AIP only. 28 scripts total.</p>
          </description>
       </package>
    </platform>
