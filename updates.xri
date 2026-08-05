@@ -5,17 +5,20 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.5.tar.gz"
-               sha1="9104f88547ea06e515e0c56810c8d2400f97f6fd"
+      <package fileName="MoPV8Scripts-1.5.6.tar.gz"
+               sha1="c06137663d928c6233aec16b0ee6d3973c62da65"
                type="script"
-               releaseDate="20260803">
-         <title>Masters of PixInsight V8 Scripts v1.5.5</title>
+               releaseDate="20260805">
+         <title>Masters of PixInsight V8 Scripts v1.5.6</title>
          <description>
-            <p>v1.5.5 — Fixed SHO-AIP's feature-id: it was nested under the
-            original author's menu path (Multichannel Synthesis > SHO-AIP :
-            MoP V8 > SHO-AIP) instead of replacing it entirely, which could
-            collide with a separate install of the unmodified original. Now
-            files under MoP V8 &gt; SHO-AIP only. 28 scripts total.</p>
+            <p>v1.5.6 — Added ColorCorrectedHDRMT (original work by Russell
+            Croman): an HDRMultiscaleTransform enhancement that uses the
+            original image's HSI hue and saturation to preserve color
+            through HDR compression, with adjustable layers, iterations,
+            overdrive, lightness masking, and blend opacity. Ported without
+            an external file dependency on AdP/CommonUIControls.js -- the
+            one control it needed from that file is now defined locally.
+            29 scripts total.</p>
          </description>
       </package>
    </platform>
