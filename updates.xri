@@ -5,20 +5,20 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.6.tar.gz"
-               sha1="c06137663d928c6233aec16b0ee6d3973c62da65"
+      <package fileName="MoPV8Scripts-1.5.7.tar.gz"
+               sha1="041954571bc04874e5e4c5a785515e1c7e43f6ab"
                type="script"
-               releaseDate="20260805">
-         <title>Masters of PixInsight V8 Scripts v1.5.6</title>
+               releaseDate="20260806">
+         <title>Masters of PixInsight V8 Scripts v1.5.7</title>
          <description>
-            <p>v1.5.6 — Added ColorCorrectedHDRMT (original work by Russell
-            Croman): an HDRMultiscaleTransform enhancement that uses the
-            original image's HSI hue and saturation to preserve color
-            through HDR compression, with adjustable layers, iterations,
-            overdrive, lightness masking, and blend opacity. Ported without
-            an external file dependency on AdP/CommonUIControls.js -- the
-            one control it needed from that file is now defined locally.
-            29 scripts total.</p>
+            <p>v1.5.7 — Added three signal-to-noise analysis tools: SNR
+            (reports SNR for the active image, per channel), SNRViews
+            (tabulates SNR for every open view and preview at once), and
+            SNRmax (batch-loads a set of files from disk and reports which
+            one has the best SNR, handy for picking an ImageIntegration
+            reference frame). SNRmax supports both FITS and XISF, including
+            multi-image XISF files like autocrop output that embed a crop
+            mask alongside the main light. 32 scripts total.</p>
          </description>
       </package>
    </platform>
