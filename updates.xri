@@ -5,17 +5,19 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.8.tar.gz"
-               sha1="2d77402fe28140793c0d85272835d7f1586f55dd"
+      <package fileName="MoPV8Scripts-1.5.9.tar.gz"
+               sha1="3e12f56c7fa21c72687c5753114c895656cc245f"
                type="script"
-               releaseDate="20260815">
-         <title>Masters of PixInsight V8 Scripts v1.5.8</title>
+               releaseDate="20260817">
+         <title>Masters of PixInsight V8 Scripts v1.5.9</title>
          <description>
-            <p>v1.5.8 — Added ColorMask (original work by Rick Stevenson):
-            builds a mask selecting a specific hue range from an RGB image,
-            with preset color buttons, three mask types (Chrominance,
-            Lightness, Linear), a strength slider, and optional
-            wavelet-based mask blur. 33 scripts total.</p>
+            <p>v1.5.9 — Added EmissionLineIntegration (original work by
+            Hartmut V. Bornemann): continuum subtraction for
+            narrowband-enhanced RGB images, isolating true emission-line
+            signal from continuum bleed-through and neighboring-line
+            contamination, with automatic per-channel ratio evaluation via
+            curve-fitting, optional star-mask support, and an optional
+            graphical analysis mode. 34 scripts total.</p>
          </description>
       </package>
    </platform>
