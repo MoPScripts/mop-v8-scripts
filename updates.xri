@@ -5,20 +5,17 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.7.tar.gz"
-               sha1="041954571bc04874e5e4c5a785515e1c7e43f6ab"
+      <package fileName="MoPV8Scripts-1.5.8.tar.gz"
+               sha1="2d77402fe28140793c0d85272835d7f1586f55dd"
                type="script"
-               releaseDate="20260806">
-         <title>Masters of PixInsight V8 Scripts v1.5.7</title>
+               releaseDate="20260815">
+         <title>Masters of PixInsight V8 Scripts v1.5.8</title>
          <description>
-            <p>v1.5.7 — Added three signal-to-noise analysis tools: SNR
-            (reports SNR for the active image, per channel), SNRViews
-            (tabulates SNR for every open view and preview at once), and
-            SNRmax (batch-loads a set of files from disk and reports which
-            one has the best SNR, handy for picking an ImageIntegration
-            reference frame). SNRmax supports both FITS and XISF, including
-            multi-image XISF files like autocrop output that embed a crop
-            mask alongside the main light. 32 scripts total.</p>
+            <p>v1.5.8 — Added ColorMask (original work by Rick Stevenson):
+            builds a mask selecting a specific hue range from an RGB image,
+            with preset color buttons, three mask types (Chrominance,
+            Lightness, Linear), a strength slider, and optional
+            wavelet-based mask blur. 33 scripts total.</p>
          </description>
       </package>
    </platform>
