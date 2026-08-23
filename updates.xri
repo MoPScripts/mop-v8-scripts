@@ -5,19 +5,20 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.9.tar.gz"
-               sha1="3e12f56c7fa21c72687c5753114c895656cc245f"
+      <package fileName="MoPV8Scripts-1.5.10.tar.gz"
+               sha1="7dfc426f0b38be9f17d89cbf0b19e61acffbbc1d"
                type="script"
-               releaseDate="20260817">
-         <title>Masters of PixInsight V8 Scripts v1.5.9</title>
+               releaseDate="20260820">
+         <title>Masters of PixInsight V8 Scripts v1.5.10</title>
          <description>
-            <p>v1.5.9 — Added EmissionLineIntegration (original work by
-            Hartmut V. Bornemann): continuum subtraction for
-            narrowband-enhanced RGB images, isolating true emission-line
-            signal from continuum bleed-through and neighboring-line
-            contamination, with automatic per-channel ratio evaluation via
-            curve-fitting, optional star-mask support, and an optional
-            graphical analysis mode. 34 scripts total.</p>
+            <p>v1.5.10 — Added PSFImage (original work by Hartmut V.
+            Bornemann): builds a synthetic PSF image from real stars
+            measured in your image (via StarDetector and DynamicPSF fitting
+            against Moffat-family functions), for use as an External PSF
+            in Deconvolution. Live profile and star preview panels,
+            adjustable sensitivity and amplitude filtering, FITS-keyword
+            metadata on the output, and a star-list CSV export. 35 scripts
+            total.</p>
          </description>
       </package>
    </platform>
