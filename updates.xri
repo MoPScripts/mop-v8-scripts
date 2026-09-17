@@ -5,18 +5,20 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.11.tar.gz"
-               sha1="27312f7212a83e8f8877412dcc8ddaf67ce6f83c"
-               type="script"
-               releaseDate="20260823">
-         <title>Masters of PixInsight V8 Scripts v1.5.11</title>
+      <package fileName="MoPV8Scripts-1.5.12.tar.gz" sha1="8ad6d2a69f14d4d0693724b2086eab07e4fa26f7" type="script" releaseDate="20260916">
+         <title>Masters of PixInsight V8 Scripts v1.5.12</title>
          <description>
-            <p>v1.5.11 — Fixed PSFImage's OK button, which threw a silent
-            "dialog is not defined" error and never closed the dialog. It
-            was relying on a with()-block scope resolution
-            (Control.dialog) that didn't survive the with() expansion
-            during the V8 port. 35 scripts total.</p>
+            <p>v1.5.12 — Added 2DPlot (original work by Hartmut V. Bornemann,
+            with a preview control component by Andrés del Pozo): plots a
+            live pixel intensity profile along a line drawn across an image
+            (horizontal, vertical, diagonal, single-point, or double-point),
+            with per-channel display, an STF toggle, a manual satellite-track
+            eraser with undo/redo, CSV/JPEG export, and a star-PSF analysis
+            mode. This is the largest single-script port in this
+            repository&apos;s history — 4,500+ lines and 74 with() blocks
+            converted and hand-verified. 36 scripts total.</p>
          </description>
       </package>
    </platform>
 </xri>
+<Signature developerId="MastersOfPixInsight" timestamp="2026-09-17T02:13:23.349Z" encoding="Base64">AF055BbtxgpB60F4pnUm38aIDICX7SdGlNeGSWYmLZ+60Lycu0hi+w1XXBIROcnbuql3onGVwgartaZzAurnBw==</Signature>
