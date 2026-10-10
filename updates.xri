@@ -5,20 +5,17 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.12.tar.gz" sha1="8ad6d2a69f14d4d0693724b2086eab07e4fa26f7" type="script" releaseDate="20260916">
-         <title>Masters of PixInsight V8 Scripts v1.5.12</title>
+      <package fileName="MoPV8Scripts-1.5.13.tar.gz" sha1="89d7fe0dd3f0d8ce790e4a044ceb624b3322fb8a" type="script" releaseDate="20261010">
+         <title>Masters of PixInsight V8 Scripts v1.5.13</title>
          <description>
-            <p>v1.5.12 — Added 2DPlot (original work by Hartmut V. Bornemann,
-            with a preview control component by Andrés del Pozo): plots a
-            live pixel intensity profile along a line drawn across an image
-            (horizontal, vertical, diagonal, single-point, or double-point),
-            with per-channel display, an STF toggle, a manual satellite-track
-            eraser with undo/redo, CSV/JPEG export, and a star-PSF analysis
-            mode. This is the largest single-script port in this
-            repository&apos;s history — 4,500+ lines and 74 with() blocks
-            converted and hand-verified. 36 scripts total.</p>
+            <p>v1.5.13 — Remove AutoCrop Views fixed: the abbreviated view
+            identifier (R/G/B/L) now sticks to the saved ACR file, so it
+            comes back correctly whenever the file is reopened later, not
+            just in the session that created it. Saved filenames keep the
+            full filter name (Red/Green/Blue/Luminance). 36 scripts
+            total.</p>
          </description>
       </package>
    </platform>
 </xri>
-<Signature developerId="MastersOfPixInsight" timestamp="2026-09-17T02:13:23.349Z" encoding="Base64">AF055BbtxgpB60F4pnUm38aIDICX7SdGlNeGSWYmLZ+60Lycu0hi+w1XXBIROcnbuql3onGVwgartaZzAurnBw==</Signature>
+<Signature developerId="MastersOfPixInsight" timestamp="2026-10-10T17:52:50.250Z" encoding="Base64">xRPb4CjNMDol/Ys/o5K8Yx2Y+gfBscv7iU4uLa82y4hXYk2BiknN269wxnHmP+0SoSbIi5F6WmdyhVRpOCYUDQ==</Signature>
