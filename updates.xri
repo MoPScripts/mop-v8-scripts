@@ -5,17 +5,16 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.13.tar.gz" sha1="89d7fe0dd3f0d8ce790e4a044ceb624b3322fb8a" type="script" releaseDate="20261010">
-         <title>Masters of PixInsight V8 Scripts v1.5.13</title>
+      <package fileName="MoPV8Scripts-1.5.14.tar.gz" sha1="98e2e41b6c34fb227a6a62b17e4700130a4c50c9" type="script" releaseDate="20261015">
+         <title>Masters of PixInsight V8 Scripts v1.5.14</title>
          <description>
-            <p>v1.5.13 — Remove AutoCrop Views fixed: the abbreviated view
-            identifier (R/G/B/L) now sticks to the saved ACR file, so it
-            comes back correctly whenever the file is reopened later, not
-            just in the session that created it. Saved filenames keep the
-            full filter name (Red/Green/Blue/Luminance). 36 scripts
-            total.</p>
+            <p>v1.5.14 — Remove AutoCrop Views: the ACR masters it saves now keep the
+            astrometric solution, so RGB images combined from them work with
+            SpectrophotometricColorCalibration. Identifiers stay abbreviated
+            (integration_R/G/B/L) and filenames keep the full filter name.
+            36 scripts total.</p>
          </description>
       </package>
    </platform>
 </xri>
-<Signature developerId="MastersOfPixInsight" timestamp="2026-10-10T17:52:50.250Z" encoding="Base64">xRPb4CjNMDol/Ys/o5K8Yx2Y+gfBscv7iU4uLa82y4hXYk2BiknN269wxnHmP+0SoSbIi5F6WmdyhVRpOCYUDQ==</Signature>
+<Signature developerId="MastersOfPixInsight" timestamp="2026-10-15T14:25:53.962Z" encoding="Base64">3c4KYJQVBAByUlfJ2HQVgElOZ508gOiYKnrtIuZZYcO7s3CQ4f7l5Vk9QnyV91BzbgByCQeSqha8SClQZzipDQ==</Signature>
