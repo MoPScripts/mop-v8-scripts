@@ -5,16 +5,17 @@
       Masters of PixInsight (www.mastersofpixinsight.com).</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.4:2.0.0">
-      <package fileName="MoPV8Scripts-1.5.14.tar.gz" sha1="98e2e41b6c34fb227a6a62b17e4700130a4c50c9" type="script" releaseDate="20261015">
-         <title>Masters of PixInsight V8 Scripts v1.5.14</title>
+      <package fileName="MoPV8Scripts-1.5.16.tar.gz" sha1="a256d1ca0ec14c1fc145db4bafac6be713486bea" type="script" releaseDate="20261028">
+         <title>Masters of PixInsight V8 Scripts v1.5.16</title>
          <description>
-            <p>v1.5.14 — Remove AutoCrop Views: the ACR masters it saves now keep the
-            astrometric solution, so RGB images combined from them work with
-            SpectrophotometricColorCalibration. Identifiers stay abbreviated
-            (integration_R/G/B/L) and filenames keep the full filter name.
-            36 scripts total.</p>
+            <p>v1.5.16 — Remove AutoCrop Views: saved ACR masters keep the astrometric
+            solution (SPCC works on RGB images combined from them), with
+            abbreviated identifiers (integration_R/G/B/L) and full filter names
+            in the filenames. Orton Glow: new &quot;Create a new image&quot; checkbox.
+            RatioCrop: Apply no longer closes the dialog, so you can keep
+            cropping the same image. 36 scripts total.</p>
          </description>
       </package>
    </platform>
 </xri>
-<Signature developerId="MastersOfPixInsight" timestamp="2026-10-15T14:25:53.962Z" encoding="Base64">3c4KYJQVBAByUlfJ2HQVgElOZ508gOiYKnrtIuZZYcO7s3CQ4f7l5Vk9QnyV91BzbgByCQeSqha8SClQZzipDQ==</Signature>
+<Signature developerId="MastersOfPixInsight" timestamp="2026-10-29T02:44:27.695Z" encoding="Base64">CKqwOXMxKxd2JAUzOzE0y//4XrhmJoDTIJsses1NBOj2k/SzhIDbvvhoxaMYW0Tpiu1h7coH6ONw0Dmfa1apBQ==</Signature>
